@@ -7,7 +7,6 @@ import FrontPsgr from "./Components/FrontPsgr";
 function App() {
   
   return (
-    <div>
        <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -16,8 +15,6 @@ function App() {
           <Route path="/front" element={<FrontPsgr />} />
         </Routes>
      </BrowserRouter>
-        {/* <FrontPsgr/> */}
-    </div>
    
   );
 }
