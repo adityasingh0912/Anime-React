@@ -1,70 +1,102 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AnimeList React Website
 
-## Available Scripts
+Welcome to the AnimeList React website! This project is a web application that allows users to browse and explore various anime series. The website provides information on airing anime, popular anime, upcoming anime, and more, all fetched from the Jikan API.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Pages](#pages)
+  - [Homepage](#homepage)
+  - [Airing Anime](#airing-anime)
+  - [Popular Anime](#popular-anime)
+  - [Upcoming Anime](#upcoming-anime)
+- [Dependencies](#dependencies)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Browse airing, popular, and upcoming anime
+- Detailed anime information
+- Search for anime series
+- Responsive design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run this project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/adityasingh0912/animelist-react.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+   ```bash
+   cd animelist-react
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install the dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To start the development server, run:
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open your browser and go to `http://localhost:3000` to see the website in action.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Pages
 
-### Code Splitting
+### Homepage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The homepage provides an overview of the website and showcases some highlighted anime series.
 
-### Analyzing the Bundle Size
+![Homepage](./screenshots/homepage.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Airing Anime
 
-### Making a Progressive Web App
+This page displays a list of currently airing anime series.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Airing Anime](./screenshots/airing_anime.png)
 
-### Advanced Configuration
+### Popular Anime
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The popular anime page lists the most popular anime series.
 
-### Deployment
+![Popular Anime](./screenshots/popular_anime.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Upcoming Anime
 
-### `npm run build` fails to minify
+This page shows the upcoming anime series that are set to be released.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Upcoming Anime](./screenshots/upcoming_anime.png)
+
+## Dependencies
+
+This project uses the following dependencies:
+
+- React
+- Axios
+- React Router DOM
+- Jikan API
+
+## License
+
+This project is licensed under the MIT License. 
+
+---
+
+Feel free to contribute to this project by submitting issues or pull requests. Enjoy exploring the world of anime with AnimeList!
+```
